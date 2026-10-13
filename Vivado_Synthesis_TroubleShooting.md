@@ -12,7 +12,7 @@ If students see this or a similar error related to .Xil/, the workaround we foun
 ## 1. Make a temporary project space in the `/tmp` directory
 In the terminal, type the following command:
 ```sh
-mkdir /tmp/vivado_projects
+mkdir /tmp/vivado_projects_<yourNetID>
 ```
 > *This folder will not persist across sessions.*
 
@@ -26,12 +26,12 @@ Open the file explorer and find your lab project folder. Right click on the proj
 </p>
 
 ## 3. Paste your project in the `/tmp` directory
-In the file explorer, navigate to `Other Locations` -> `Computer` -> `tmp` -> `vivado_projects`. Inside of the `vivado_projects` folder, right click and select `paste`.
+In the file explorer, navigate to `Other Locations` -> `Computer` -> `tmp` -> `vivado_projects_<yourNetID>`. Inside of the `vivado_projects_<yourNetID>` folder, right click and select `paste`.
 
 ## 4. Open the Copied project in Vivado
 Navigate back to Vivado. In the top left of the screen go to `File` -> `project` -> `open`. In the open project window, type the project folder path.
 ```
-/tmp/vivado_projects/<your_lab_project>
+/tmp/vivado_projects_<yourNetID>/<your_lab_project>
 ```
 
 Double click on the `.xpr` file to open the project. 
