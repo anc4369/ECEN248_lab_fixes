@@ -1,6 +1,6 @@
 # Vivado Synthesis Trouble-Shooting
 
-If you get an error when attempting to complete synthesis or bitstream generation, follow the steps below.
+If you get an error or Vivado is stuck "queuing" when attempting to complete synthesis or bitstream generation, follow the steps below.
 
 The error appears as an Input/Output error involving a path under .Xil/, for example:
 ```
